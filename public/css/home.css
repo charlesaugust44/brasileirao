@@ -1,0 +1,70 @@
+.time-campeao {
+    border-left: 3px solid var(--time-campeao-color);
+}
+
+.time-libertadores {
+    border-left: 3px solid var(--time-libertadores-color);
+}
+
+.time-sulamericana {
+    border-left: 3px solid var(--time-sulamericana-color);
+}
+
+.time-rebaixado {
+    border-left: 3px solid var(--time-rebaixado-color);
+}
+
+.legenda {
+    text-align: center;
+    font-size: .8rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.legenda div {
+    margin-left: 1.5rem;
+    display: inline;
+    font-size: .6rem;
+}
+
+.legenda .time-campeao {
+    background: var(--time-campeao-color);
+    border: none;
+}
+
+.legenda .time-libertadores {
+    background: var(--time-libertadores-color);
+    border: none;
+}
+
+.legenda .time-sulamericana {
+    background: var(--time-sulamericana-color);
+    border: none;
+}
+
+.legenda .time-rebaixado {
+    background: var(--time-rebaixado-color);
+    border: none;
+}
+
+.table {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table .dataRow td img{
+    margin-right: 1rem;
+}
+
+#golsCasa, #golsVisitante {
+    max-width: 35%;
+}
+
+#timeCasa, #timeVisitante {
+    max-width: 60%;
+}
+
+#nodata, #loading, #tableAlert, #modalAlert, #loadingSave{
+    display: none;
+}

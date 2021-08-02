@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root{
+    --time-rebaixado-color: red;
+    --time-campeao-color:#09d709;
+    --time-libertadores-color: #fafa31;
+    --time-sulamericana-color: blue;
+}
+
+.body{
+    font-family: Nunito sans-serif;
+}
+
+
+
+
